@@ -179,7 +179,7 @@ a:focus {
 .content h1 {
 	width: 50%;
     text-align: center;
-    pointer-events: none;
+    user-select: none;
 }
 
 #scene.clickable{
