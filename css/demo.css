@@ -224,7 +224,7 @@ a:focus {
 @media screen and (max-width: 60em) {
 	.codrops-header {
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		font-size: 0.85em;
 	}
 	.codrops-links {
@@ -233,5 +233,7 @@ a:focus {
 	.demos {
 		width: 100%;
 		margin: 1em 0 0;
+		text-align: center;
+        margin-top: 2em;
 	}
 }

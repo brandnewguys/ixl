@@ -278,9 +278,9 @@ function Particle(scene, burst, isSickle) {
     }
 
     var range = 10;
-    var offset = burst ? 200 : 350;
+    var offset = burst ? 60 : 350;
     var saturate = Math.floor(Math.random() * 20 + 65);
-    var light = burst ? 20 : 56;
+    var light = burst ? 70 : 56;
     this.color = new THREE.Color(
         "hsl(" +
             (Math.random() * range + offset) +
